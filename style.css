@@ -882,19 +882,21 @@ img {
     color:#ffa700;
 }
 .contact .contact__text__left table{
-    width:100%;
+    width:60%;
 }
 .contact .contact__text__left tr td{
     color:#ffffff;
     text-align:left;
-    gap:
+
+    
+    
 }
 .contact .contact__text__left tr td a{
     color:#ffa700;
     margin:4rem 0;
 }
-.contact .contact__text__left tr{
- 
+.contact .contact__text__left td{
+    
 }
 
 
