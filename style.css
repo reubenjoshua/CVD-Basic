@@ -865,9 +865,12 @@ img {
     font-size:7rem;
     text-weight:600;
     color:#ffa700;
+    padding:3rem 0;
 }
 .contact .contact__text__left p{
     color:#ffffff;
+    max-width:48rem;
+    padding:3rem 0; 
 }
 .contact .contact__text__left a{
     font-size:3rem;
@@ -882,7 +885,7 @@ img {
     color:#ffa700;
 }
 .contact .contact__text__left table{
-    width:60%;
+    width:100%;
 }
 .contact .contact__text__left tr td{
     color:#ffffff;
@@ -896,6 +899,31 @@ img {
     margin:4rem 0;
 }
 .contact .contact__text__left td{
+    
+}
+.contact__right input{
+    display:flex;
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:2rem 0;
+    padding:2rem;
+    box-sizing:border-box;
+    items-align:center;
+}
+.contact .contact__wrapper{
+    display:grid;
+    grid-template-columns:2fr 2fr;
+}
+.contact__right input:last-child{
+    padding:1rem 0 19rem 0;
+    text-indent:1.7rem; 
+}
+.contact__wrapper .contact__right a{
+    text-align:right;
+    margin:4rem 0;
+    margin-left:4rem;
+   
     
 }
 
