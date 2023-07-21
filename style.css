@@ -860,6 +860,7 @@ img {
     padding-top:13rem;
     padding-bottom:5rem;
     background:#2b2b2b;
+    height:91.8vh;
 }
 .contact .contact__title h2{
     font-size:7rem;
@@ -875,11 +876,11 @@ img {
 .contact .contact__text__left a{
     font-size:3rem;
     display:grid;
-    margin:2rem 0;
+    margin:3rem 0;
 }
 .contact .contact__text__left ul{
     display:flex;
-    gap:2rem;
+    gap:4rem;
 }
 .contact .contact__text__left ul li a{
     color:#ffa700;
@@ -890,13 +891,10 @@ img {
 .contact .contact__text__left tr td{
     color:#ffffff;
     text-align:left;
-
-    
-    
 }
 .contact .contact__text__left tr td a{
     color:#ffa700;
-    margin:4rem 0;
+    margin:2rem 0;
 }
 .contact .contact__text__left td{
     
@@ -910,21 +908,48 @@ img {
     padding:2rem;
     box-sizing:border-box;
     items-align:center;
+    position:relative;
 }
 .contact .contact__wrapper{
     display:grid;
-    grid-template-columns:2fr 2fr;
+    grid-template-columns:1fr 1fr;
 }
 .contact__right input:last-child{
-    padding:1rem 0 19rem 0;
-    text-indent:1.7rem; 
+    padding:1rem 9rem 18rem 0;
+    text-indent:1.7rem;
 }
-.contact__wrapper .contact__right a{
-    text-align:right;
-    margin:4rem 0;
-    margin-left:4rem;
-   
+.contact .contact__right{
+    display:flex;
+    flex-direction:column;
+}
+.contact .contact__right a{
+    margin-left: 47.4rem;
+}
+@media screen and (max-width:500px){
+    .contact{
+        padding:8rem 0;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:3rem;
+    }
+    .contact .contact__wrapper{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:12rem;
+    }
+    .contact__wrapper{
+        line-height:1.5rem;
+    }
+    .contact .contact__right form{
+        display:flex;
+        flex-direction:column;
+        align-items:right;
+    }
+    .contact .contact__right form input{
+        width:35rem;
+    }
     
 }
+
 
 
