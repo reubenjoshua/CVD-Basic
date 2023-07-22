@@ -904,7 +904,7 @@ img {
     margin:2rem 0;
     padding:2rem;
     box-sizing:border-box;
-    items-align:center;
+    align-items:center;
     position:relative;
 }
 .contact .contact__wrapper{
@@ -962,6 +962,130 @@ img {
     }
     
 }
-
+/*--------SERVICES---------*/
+.services{
+    background:#ffffff;
+}
+.services .services__wrapper{
+    padding:10rem 0;
+    line-height:2rem;  
+    
+}
+.services .services__text h2{
+    font-size:7rem;
+    font-weight:600;
+    color:#ffa700;
+    line-height:7rem;
+    margin:6rem;
+    padding:5rem;
+}
+.services .services__text p{
+    margin: 0 12rem;
+    padding-bottom:4rem;
+}
+.services__group{
+    display:grid;
+    align-items:center;
+    padding:1.5rem;
+}
+.services__group img{
+    align-items:center;
+    padding:5rem;
+}
+.services .services__text h4{
+    font-size:3rem;
+    color:#ffa700;
+    padding-left:12rem;
+}
+.services .services__text p:nth-child(3){
+    display:flex;
+    align-items:center;   
+}
+.services .services__text h4{
+    padding-bottom:4rem;
+}
+.services:nth-child(3){
+    display:flex;
+    background:#2b2b2b;
+    align-items:center;
+    justify-content:center;
+    max-width:100%;
+}
+.services .services__text2:nth-child(1) p{
+    color:#ffffff;
+}
+.services .services__text2 h2{
+    font-size:7rem;
+    font-weight:600;
+    color:#ffa700;
+    line-height:7rem;
+    margin:6rem;
+    padding:5rem;
+   
+}
+.services .services__text2 p{
+    margin: 0 12rem;
+    padding-bottom:4rem;
+ 
+}
+.services .services__text2 h4{
+    font-size:3rem;
+    color:#ffa700;
+    padding-left:12rem;
+    padding-bottom:4rem;
+    
+}
+.services__text2{
+    order:2;
+}
+.services .services__text p:nth-child(3){
+    padding-bottom:7rem;
+}
+@media screen and (max-width:500px){
+    .services .services__text{
+        text-align:center;
+        order:1;
+        margin:0 auto;
+    }
+    .services .services__text2{
+        text-align:center;
+        
+    }
+    .services .services__text h2{
+        display:flex;
+        font-size:5rem;
+        line-height:5rem;
+        margin:3rem;
+        padding:unset;
+        text-align: center;
+        
+    }
+    .services .services__text2 h2{
+        display:flex;
+        font-size:5rem;
+        line-height:5rem;
+        margin:3rem;
+        padding:3rem;
+        align-items: center;
+    }
+    .services .services__text h4{
+        text-align: center;
+        padding-left:unset;
+    }
+    .services .services__text p{
+        margin:0;
+        padding-bottom:2rem;
+    }
+    .services .services__text2 p{
+        margin:0;
+        padding-bottom:2rem;
+    }
+    .services__group{
+        grid-template-columns:1fr;
+    }
+    .services .services__text2 h4{
+        padding-left:unset;
+    }
+}
 
 
