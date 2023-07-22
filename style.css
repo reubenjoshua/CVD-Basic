@@ -880,7 +880,7 @@ img {
 }
 .contact .contact__text__left ul{
     display:flex;
-    gap:4rem;
+    gap:3rem;
 }
 .contact .contact__text__left ul li a{
     color:#ffa700;
@@ -894,10 +894,7 @@ img {
 }
 .contact .contact__text__left tr td a{
     color:#ffa700;
-    margin:2rem 0;
-}
-.contact .contact__text__left td{
-    
+    margin:3rem 0;
 }
 .contact__right input{
     display:flex;
@@ -932,11 +929,18 @@ img {
         grid-template-columns:1fr;
         gap:3rem;
         height:100%;
+        height:unset;
     }
     .contact .contact__wrapper{
         display:grid;
         grid-template-columns:1fr;
-        gap:12rem;
+        gap:5rem;
+    }
+    .contact .contact__text__left tr td a{
+        padding:2rem;
+    }
+    .contact .contact__text__left table{
+        gap:
     }
     .contact__wrapper{
         line-height:1.5rem;
@@ -948,6 +952,13 @@ img {
     }
     .contact .contact__right form input{
         width:35rem;
+        margin:2rem 5rem;
+        
+    }
+    .contact .contact__wrapper .contact__right a{
+        margin:0 5rem;
+        width:40%;
+        text-align:center; 
     }
     
 }
