@@ -130,6 +130,8 @@ img {
     position:relative;
     position:fixed;
     width:100%;
+    z-index:999;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .header .branding{
     display:flex;
@@ -255,7 +257,7 @@ img {
     font-size:10rem;
     font-weight:800;
     color:#ffa700;
-    line-height:1.2;
+    padding:5rem 0;
 }
 .banner .banner__text p{
     margin:5rem 0;
@@ -279,6 +281,7 @@ img {
     }
     .banner .banner__text h1{
         font-size:3rem;
+        padding-bottom:1rem;
     }
     .banner .banner__text p{
         margin-top:2rem;
@@ -337,7 +340,7 @@ img {
     display:grid;
     grid-template-columns: 2fr 2fr;
     align-items:center;
-    padding-bottom:5rem;
+    padding-bottom:1rem;
 }
 .hm-aboutme .hm-aboutme__text h3{
     font-size:3rem;
@@ -483,6 +486,14 @@ img {
     background:#2b2b2b;
     border:1px solid #2b2b2b;
     color:#ffffff;
+}
+.chevron__blink{
+    display:flex;
+    justify-content:center;
+    color:#ffa700;
+    font-size:5rem;
+    margin-top:5rem;
+    padding-bottom:5rem;
 }
 /*--------FREE---------*/
 .free{
@@ -939,9 +950,9 @@ img {
     .contact .contact__text__left tr td a{
         padding:2rem;
     }
-    .contact .contact__text__left table{
+    /* .contact .contact__text__left table{
         gap:
-    }
+    } */
     .contact__wrapper{
         line-height:1.5rem;
     }
@@ -975,7 +986,7 @@ img {
 .services .services__group .services__text{
     max-width:45rem;
 }
-.servc\ices .services__group:first-child .services__text h4{
+.services .services__group:first-child .services__text h4{
     color:#ffa700;
     font-size:2rem;
     padding-bottom:1rem;
@@ -994,6 +1005,7 @@ img {
 }
 .services .services__group:nth-child(2) {
     background: #2b2b2b;
+    
 }
 
 .services .services__group:nth-child(2) .services__text {
@@ -1003,6 +1015,8 @@ img {
 .services .services__group:first-child .services__text h2 {
     color:#ffa700;
     font-size:5rem;
+    font-weight:600;
+    padding-bottom:2rem;
 }
 .services .services__group:first-child{
     padding-top:15rem;
@@ -1057,6 +1071,9 @@ img {
     color: #ffa700;
     font-size: 2rem;
 }
+.services .services__group:last-child .services__text h2{
+    padding-top:1rem;
+}
 .services .services__group:last-child{
     padding;
 }
@@ -1067,6 +1084,9 @@ img {
     }
     .services .services__text{
         order:2;
+    }
+    .services .services__wrapper img{
+        width:40rem;
     }
     .services .services__group .services__text h2{
         font-size: 3rem;
@@ -1082,8 +1102,26 @@ img {
     .services .services__group:first-child .services__text p:nth-child(2){
         padding-bottom:3rem;
     }
+    .services .services__group:first-child .services__text p:nth-child(4){
+        text-align:center;
+    }
+    .services .services__group:first-child .services__text p:nth-child(6){
+        text-align:center;
+    }
+    .services .services__group:first-child .services__text h4{
+        text-align:center;
+    }
     .services .services__group:nth-child(2) .services__text p:nth-child(2){
         padding-bottom:3rem;
+    }
+    .services .services__group:nth-child(2) .services__text p:nth-child(4){
+        text-align:center;
+    }
+    .services .services__group:nth-child(2) .services__text p:nth-child(6){
+        text-align:center;
+    }
+    .services .services__group:nth-child(2) .services__text h4{
+        text-align:center;
     }
     .services .services__group .services__text h4{
         font-size: 1.5rem;
